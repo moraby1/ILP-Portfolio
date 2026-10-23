@@ -356,7 +356,7 @@ export default function App() {
           >
             <div className="w-10 h-10  rounded-xl flex items-center justify-center shadow-md group-hover:scale-105 transition-transform overflow-hidden">
               <img
-                src="/csumb_logo.jpg"
+                src={`${import.meta.env.BASE_URL}csumb_logo.jpg`}
                 alt="Logo"
                 className="w-full h-full object-contain"
               />
@@ -672,7 +672,7 @@ function HomePage({ student, goals, courses, editMode, onUpdateStudent, onNaviga
             <div className="relative group flex-shrink-0">
               <div className="w-44 h-44 sm:w-52 sm:h-52 rounded-2xl overflow-hidden shadow-2xl border-4 border-amber-400 bg-slate-100">
                 <img 
-                  src="/mahmoud.jpg" 
+                  src={`${import.meta.env.BASE_URL}mahmoud.jpg`} 
                   alt={student.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   onError={(e) => { e.target.src = "https://placehold.co/400x400/1e293b/fbbf24?text=Mahmoud"; }}

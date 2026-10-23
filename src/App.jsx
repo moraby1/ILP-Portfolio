@@ -32,7 +32,6 @@ const portfolioConfig = {
           type: "pdf",
           title: "Final Ethics Essay: Ethical Challenges in AI Development",
           summary: "This essay analyzes the ethical responsibilities of software engineers, particularly in the development of AI systems. It uses frameworks from ACM and IEEE codes of ethics to evaluate accountability in real-world tech decisions.",
-          // Replace with your public Google Drive preview link: e.g. https://drive.google.com/file/d/YOUR_FILE_ID/preview
           url: "https://drive.google.com/file/d/1cNxIsWcOc_sFh6x7TCAJIjICFxX9-d7R/preview"
         },
         {
@@ -59,12 +58,6 @@ const portfolioConfig = {
       title: "Introduction to Computer Networks",
       description: "An overview of data communication and computer networking principles, focusing on the design and implementation of layered network protocols. Topics include LANs, TCP/IP, routing, switching, and network security.",
       samples: [
-        {
-          type: "pdf",
-          title: "Network Packet Analysis Lab Report",
-          summary: "Detailed capture and analysis of TCP/IP handshakes, packet headers, and routing efficiency using Wireshark.",
-          url: "https://drive.google.com/file/d/1SampleNetworkPdf/preview"
-        },
         {
           type: "video",
           title: "Mininet Programming Assignment",
@@ -168,10 +161,10 @@ const portfolioConfig = {
       description: "Focuses on object-oriented programming and software design principles. Students learn Java, design patterns, and software development lifecycle practices through hands-on projects.",
       samples: [
         {
-          type: "pdf",
-          title: "Object-Oriented Design Patterns Portfolio",
-          summary: "Implementation of Singleton, Factory, Strategy, and Observer design patterns in enterprise Java applications with comprehensive JUnit test suites.",
-          url: "https://drive.google.com/file/d/1SampleJavaPdf/preview"
+          type: "video",
+          title: "Final Project - TaskMate App.",
+          summary: "",
+          url: "https://www.youtube.com/embed/YRKrfSiudUc"
         }
       ],
       ilp: {
@@ -187,9 +180,15 @@ const portfolioConfig = {
       samples: [
         {
           type: "pdf",
-          title: "Normalized Database Schema & Query Optimization",
-          summary: "Designed a 3NF relational database schema for a hospital management system with optimized complex SQL queries and stored procedures.",
-          url: "https://drive.google.com/file/d/1SampleDbPdf/preview"
+          title: "Prescription Database Web Application",
+          summary: "The goal of this database is to support a web application that allows doctors, patients, and pharmacies to manage medical prescriptions online. We are able to do this in a robust and efficient way by adhering to Boyce-Codd Normal Form and proper entity-relationship management throughout the database.",
+          url: "https://drive.google.com/file/d/1ZBlOytTMOV9tSLAa-3ho60Y_9u4lQFOU/preview"
+        },
+        {
+          type: "pdf",
+          title: "Pharmacy Prescription Database Design",
+          summary: "This document describes a relational database design for pharmacies to track patient prescriptions, doctors, patients, drugs, pharmacies, and fill/refill history. The system supports online registration for doctors and patients, validation of drug names, unique RXID assignment for prescriptions, refill limits, and recording of each fill event including the pharmacy, actual price, quantity and date.",
+          url: "https://drive.google.com/file/d/1fE-H4wT2tNpLEvEMMMpt1Oi4N5vjcY6x/preview"
         }
       ],
       ilp: {
@@ -235,9 +234,15 @@ const portfolioConfig = {
       samples: [
         {
           type: "pdf",
-          title: "Predictive Housing Market Analysis Report",
-          summary: "Applied regression models and exploratory data analysis to predict residential real estate valuations based on historical feature sets.",
-          url: "https://drive.google.com/file/d/1SampleDataPdf/preview"
+          title: "Linear Regression",
+          summary: "",
+          url: "https://drive.google.com/file/d/1P4eCBRmWypEl_pE6IfW7zhYJfgDAD6Kq/preview"
+        },
+        {
+          type: "pdf",
+          title: "Online Machine Learning Final Assignment",
+          summary: "",
+          url: "https://drive.google.com/file/d/1DbxI4Mg5NXe_0wDI99QLGcjBcMaq_BNC/preview"
         }
       ],
       ilp: {
@@ -249,13 +254,13 @@ const portfolioConfig = {
     "CST 438": {
       code: "CST 438",
       title: "Software Engineering",
-      description: "Agile methodologies, Scrum project management, continuous integration/continuous deployment (CI/CD), automated testing, and team-based software development.",
+      description: "This course prepares students for large-scale software development using software engineering principles and techniques. Coverage includes software development process, requirements analysis and specification, software design, implementation, testing, and project management. Students are expected to work in teams to carry out a realistic software project.",
       samples: [
         {
           type: "pdf",
-          title: "Agile Team Project & CI/CD Pipeline Documentation",
-          summary: "Led a 5-person agile team building a task management SaaS with GitHub Actions CI/CD automation, Docker containerization, and automated unit testing.",
-          url: "https://drive.google.com/file/d/1SampleSePdf/preview"
+          title: "On-Demand Taxi Service Systemn",
+          summary: "The purpose of this document is to present a detailed description of the On-Demand Taxi Service System. It explains the purpose, features, system interfaces, operational constraints, and responses to external stimuli. This document is intended for stakeholders, developers, project managers, and quality assurance engineers.",
+          url: "https://drive.google.com/file/d/1xRuSpW4-tl7wjKAtDzc02uA9JoMhQmEm/preview"
         }
       ],
       ilp: {
@@ -267,13 +272,19 @@ const portfolioConfig = {
     "CST 462S": {
       code: "CST 462S",
       title: "Race, Gender, Class in the Digital World",
-      description: "Examines the intersection of technology, power structures, social justice, digital divide, and ethical responsibilities of technologists in diverse societies.",
+      description: "This course provides students with key knowledge of race, gender, class and social justice especially in relation to technology in today's digital world. Students challenge the barriers of expertise, gender, race, class, and location that restrict wider access to and understanding of the production and the usage of new technologies. Students engage in a practical experience in the community via their service placements, which provides depth and context for engaging with questions of justice, equality, social responsibilities and the complexities of technology and its societal impact. The course uses a scenario based approach combining research, discussions, and reflections to allow students to explore the relationship between critical reflection and action on the topics mentioned above.",
       samples: [
         {
           type: "pdf",
-          title: "Service Learning Reflection & Digital Equity Proposal",
-          summary: "A community service-learning project providing digital literacy workshops for underrepresented youth, accompanied by a critical reflection essay on technology access equity.",
-          url: "https://drive.google.com/file/d/1SampleServicePdf/preview"
+          title: "Telehealth Expansion and Healthcare Access Barriers",
+          summary: "",
+          url: "https://drive.google.com/file/d/1Lt2kihUeF12p206pY-Wi8U7rJomuAs4R/preview"
+        },
+        {
+          type: "pdf",
+          title: "Service Time Log",
+          summary: "",
+          url: "https://drive.google.com/file/d/1dZQs2nO5E0fHUqJgQATvdd3jZqcZjZaO/preview"
         }
       ],
       ilp: {
